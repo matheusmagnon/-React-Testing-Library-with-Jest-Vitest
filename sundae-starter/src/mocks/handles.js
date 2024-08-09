@@ -1,7 +1,7 @@
 import {http, HttpResponse} from 'msw'
 
 export const handlers = [
-    http.get('http://localhost3030/scoops', () => {
+    http.get('http://localhost:3030/scoops', () => {
         // Note that you DONT'T have to stringify the json body. msw handles that for you
         return HttpResponse.json([
             {name: 'Chocolate', imagePath: '/images/chocolate-scoop.png'},
