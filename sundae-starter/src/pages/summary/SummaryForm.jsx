@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Form, OverlayTrigger, Popover, Tooltip } from "react-bootstrap";
+import { Form, OverlayTrigger, Popover } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
 function SummaryForm() {
