@@ -8,6 +8,7 @@ test('display image for each scoop option from server', async () => {
     //find imagens
     const scoopImagens = await screen.findAllByRole('img', { name: /scoop$/i })
     expect(scoopImagens).toHaveLength(2);
+    expect
 
     //confirm alt text of images
     const altText = scoopImagens.map((element) => element.alt);
